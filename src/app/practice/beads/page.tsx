@@ -1,5 +1,5 @@
-import { BeadCounter } from "@/components/bead-counter";
-import { PageHeader } from "@/components/gamification-ui";
+import { BeadCounter } from "@/components/practice/bead-counter";
+import { PageHeader } from "@/components/ui/gamification-ui";
 
 export default function BeadsPage() {
   return (

@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { PageHeader, Surface } from "@/components/gamification-ui";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
 import { useAppStore } from "@/lib/store";
 
 export default function AuthPage() {

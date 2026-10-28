@@ -1,8 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { PageHeader, Surface } from "@/components/gamification-ui";
-import { BellIcon } from "@/components/reference-icons";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
+import { BellIcon } from "@/components/ui/icons";
 import { PRAYER_DOCUMENTS, PRESET_HABIT_PRAYER_IDS } from "@/lib/prayers";
 import { useAppStore } from "@/lib/store";
 import type { WorshipPlan } from "@/lib/types";

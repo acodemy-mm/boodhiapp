@@ -12,7 +12,7 @@ import {
   PlayIcon,
   RestartIcon,
   ChevronIcon,
-} from "@/components/reference-icons";
+} from "@/components/ui/icons";
 import { quoteEvery } from "@/lib/content";
 import { todayISODate } from "@/lib/gamification";
 import {

@@ -9,7 +9,7 @@ import {
   StreakCard,
   Surface,
   StatCard,
-} from "@/components/gamification-ui";
+} from "@/components/ui/gamification-ui";
 import { useAppStore } from "@/lib/store";
 
 function goalLabel(goal: string | null) {

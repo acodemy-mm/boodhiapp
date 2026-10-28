@@ -3,21 +3,21 @@
 import Link from "next/link";
 import { useParams, useRouter } from "next/navigation";
 import { useState } from "react";
-import { BodhiScene } from "@/components/bodhi-scenes";
+import { BodhiScene } from "@/components/brand/bodhi-scenes";
 import {
   ArrowLeftIcon,
   PlayIcon,
   SproutIcon,
-} from "@/components/reference-icons";
+} from "@/components/ui/icons";
 import {
   PageHeader,
   ProgressSteps,
   RewardPill,
   SectionHeading,
   Surface,
-} from "@/components/gamification-ui";
+} from "@/components/ui/gamification-ui";
 import { getLesson, getLessonsForModule, getModule, quoteOfDay } from "@/lib/content";
-import { createGamificationSnapshot } from "@/lib/gamification-view";
+import { createGamificationSnapshot } from "@/lib/gamification/view";
 import { useAppStore } from "@/lib/store";
 
 function renderContent(md: string) {
@@ -132,7 +132,7 @@ export default function LessonPage() {
 
       <Surface className="overflow-hidden p-0">
         <div className="relative aspect-[1.58] overflow-hidden bg-bg-mid">
-          <BodhiScene variant="lesson" className="h-full w-full" />
+          <BodhiScene className="h-full w-full" />
           <span className="absolute left-3 top-3 rounded-full border border-border-strong bg-bg-deep/75 px-3 py-1 text-xs font-bold text-accent-merit-soft">
             {Math.max(1, lessonIndex + 1)} / {moduleLessons.length}
           </span>

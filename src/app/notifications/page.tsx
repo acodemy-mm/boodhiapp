@@ -6,13 +6,13 @@ import {
   PageHeader,
   Surface,
   EmptyState,
-} from "@/components/gamification-ui";
+} from "@/components/ui/gamification-ui";
 import {
   BellIcon,
   FireIcon,
   LeafIcon,
   TrophyIcon,
-} from "@/components/reference-icons";
+} from "@/components/ui/icons";
 import {
   buildLaunchNotifications,
   type NotificationIconType,

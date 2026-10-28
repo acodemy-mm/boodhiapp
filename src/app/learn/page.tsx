@@ -6,10 +6,10 @@ import {
   ProgressMeter,
   RewardPill,
   Surface,
-} from "@/components/gamification-ui";
+} from "@/components/ui/gamification-ui";
 import { MODULES, getLessonsForModule } from "@/lib/content";
 import { MERIT } from "@/lib/gamification";
-import { createGamificationSnapshot } from "@/lib/gamification-view";
+import { createGamificationSnapshot } from "@/lib/gamification/view";
 import { useAppStore } from "@/lib/store";
 
 const TRACK_LABEL: Record<string, string> = {

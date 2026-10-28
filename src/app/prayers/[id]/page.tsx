@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { PageHeader, Surface } from "@/components/gamification-ui";
-import { PrayerAbout } from "@/components/prayer-about";
-import { ArrowRightIcon } from "@/components/reference-icons";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
+import { PrayerAbout } from "@/components/ui/prayer-about";
+import { ArrowRightIcon } from "@/components/ui/icons";
 import { getNextPrayer, getPrayer } from "@/lib/prayers";
 
 export default async function PrayerDetailPage({

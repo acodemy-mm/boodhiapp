@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { renderAbidanPage } from "@/lib/abidan-page";
+import { renderAbidanPage } from "@/lib/dictionary/abidan-page";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";

@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useMemo, useState } from "react";
-import { EmptyState, PageHeader } from "@/components/gamification-ui";
-import { ArrowRightIcon } from "@/components/reference-icons";
+import { EmptyState, PageHeader } from "@/components/ui/gamification-ui";
+import { ArrowRightIcon } from "@/components/ui/icons";
 import { PRAYER_DOCUMENTS } from "@/lib/prayers";
 
 export default function PrayersPage() {

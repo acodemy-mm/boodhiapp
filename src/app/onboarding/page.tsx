@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { PageHeader, Surface } from "@/components/gamification-ui";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
 import { useAppStore } from "@/lib/store";
 import type { Goal } from "@/lib/types";
 

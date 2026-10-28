@@ -3,9 +3,9 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
-import { PageHeader, Surface } from "@/components/gamification-ui";
-import { PrayerAbout } from "@/components/prayer-about";
-import { ArrowRightIcon, CheckIcon } from "@/components/reference-icons";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
+import { PrayerAbout } from "@/components/ui/prayer-about";
+import { ArrowRightIcon, CheckIcon } from "@/components/ui/icons";
 import { getPrayersByIds } from "@/lib/prayers";
 import { useAppStore } from "@/lib/store";
 

@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
-import { PageHeader } from "@/components/gamification-ui";
-import { getAbidanEntry } from "@/lib/abidan";
+import { PageHeader } from "@/components/ui/gamification-ui";
+import { getAbidanEntry } from "@/lib/dictionary/abidan";
 
 export const dynamic = "force-dynamic";
 

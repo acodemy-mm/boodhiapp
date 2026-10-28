@@ -3,8 +3,8 @@
 import Link from "next/link";
 import { useEffect } from "react";
 import { useRouter } from "next/navigation";
-import { BodhiTree } from "@/components/bodhi-tree";
-import { Surface } from "@/components/gamification-ui";
+import { BodhiTree } from "@/components/brand/bodhi-tree";
+import { Surface } from "@/components/ui/gamification-ui";
 import { useAppStore } from "@/lib/store";
 
 export default function LandingPage() {

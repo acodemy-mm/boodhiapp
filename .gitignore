@@ -21,6 +21,7 @@
 # misc
 .DS_Store
 *.pem
+.cursor/
 
 # debug
 npm-debug.log*
@@ -39,6 +40,13 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# Tipitaka dictionary scans (downloaded on demand)
+# Tipitaka dictionary (large / downloaded on demand)
 /data/abidan-books/
 /data/abidan-pages/
+/data/tipitaka-abidan.db
+
+# Capacitor / Xcode
+/ios/App/Pods/
+/ios/App/App/public/
+/ios/DerivedData/
+*.xcuserstate

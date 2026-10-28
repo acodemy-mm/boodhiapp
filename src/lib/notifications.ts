@@ -1,5 +1,5 @@
-import { todayISODate } from "./gamification";
-import type { WorshipPlan } from "./types";
+import { todayISODate } from "@/lib/gamification";
+import type { WorshipPlan } from "@/lib/types";
 
 export type NotificationIconType = "habit" | "streak" | "level" | "event";
 
@@ -126,6 +126,3 @@ export function getUnreadNotificationCount(
 ) {
   return getUnreadNotifications(items, readIds).length;
 }
-
-/** @deprecated Prefer buildLaunchNotifications — kept for store mark-all fallback */
-export const APP_NOTIFICATIONS: AppNotification[] = [];

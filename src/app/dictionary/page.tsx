@@ -2,8 +2,8 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { EmptyState, PageHeader } from "@/components/gamification-ui";
-import { ArrowRightIcon } from "@/components/reference-icons";
+import { EmptyState, PageHeader } from "@/components/ui/gamification-ui";
+import { ArrowRightIcon } from "@/components/ui/icons";
 
 type DictionaryWord = {
   id: number;

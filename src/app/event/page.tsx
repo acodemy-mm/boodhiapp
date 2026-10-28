@@ -1,4 +1,4 @@
-import { PageHeader, Surface } from "@/components/gamification-ui";
+import { PageHeader, Surface } from "@/components/ui/gamification-ui";
 
 export default function EventPage() {
   return (

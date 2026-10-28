@@ -1,5 +1,5 @@
-import { PageHeader } from "@/components/gamification-ui";
-import { FireIcon, LeafIcon, PlayIcon } from "@/components/reference-icons";
+import { PageHeader } from "@/components/ui/gamification-ui";
+import { FireIcon, LeafIcon, PlayIcon } from "@/components/ui/icons";
 import Link from "next/link";
 
 export default function PracticeHubPage() {

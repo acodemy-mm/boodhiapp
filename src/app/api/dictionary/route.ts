@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { listAbidanLetters, searchAbidan } from "@/lib/abidan";
+import { listAbidanLetters, searchAbidan } from "@/lib/dictionary/abidan";
 
 export const runtime = "nodejs";
 

@@ -1,8 +1,9 @@
 import type { Metadata, Viewport } from "next";
 import { Fraunces, Noto_Sans, Noto_Sans_Myanmar } from "next/font/google";
 import { AppStoreProvider } from "@/lib/store";
-import { AuthGate } from "@/components/auth-gate";
-import { AppShell } from "@/components/app-shell";
+import { AuthGate } from "@/components/shell/auth-gate";
+import { AppShell } from "@/components/shell/app-shell";
+import { NativeRuntime } from "@/components/shell/native-runtime";
 import "./globals.css";
 
 const fraunces = Fraunces({
@@ -48,6 +49,7 @@ export default function RootLayout({
     >
       <body className="font-body antialiased">
         <AppStoreProvider>
+          <NativeRuntime />
           <AuthGate>
             <AppShell>{children}</AppShell>
           </AuthGate>

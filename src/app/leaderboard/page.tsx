@@ -4,8 +4,8 @@ import {
   PageHeader,
   Surface,
   StatCard,
-} from "@/components/gamification-ui";
-import { TrophyIcon } from "@/components/reference-icons";
+} from "@/components/ui/gamification-ui";
+import { TrophyIcon } from "@/components/ui/icons";
 import { TREE_THRESHOLDS } from "@/lib/gamification";
 import { buildLeaderboard } from "@/lib/learning-tools";
 import { useAppStore } from "@/lib/store";

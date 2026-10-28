@@ -5,8 +5,8 @@ import {
   EmptyState,
   PageHeader,
   Surface,
-} from "@/components/gamification-ui";
-import { ArrowLeftIcon, ArrowRightIcon } from "@/components/reference-icons";
+} from "@/components/ui/gamification-ui";
+import { ArrowLeftIcon, ArrowRightIcon } from "@/components/ui/icons";
 import { FLASHCARDS } from "@/lib/learning-tools";
 
 export default function FlashcardsPage() {
